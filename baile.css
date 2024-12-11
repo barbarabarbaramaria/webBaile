@@ -1,0 +1,41 @@
+body{
+    font-family:Consolas;
+    font-size:18px;
+    background-image:url("Imagen de fondo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:1045px;
+    height:1090px;
+}
+@media all and (max-width: 600px){
+    div{
+        display: block !important;  /* Cuando el ancho sea inferior a 600px el elemento será un bloque */
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: auto !important;
+        position: static !important;
+        float: none !important;
+    }
+}
+a{
+    text-decoration: none;
+}
+div.logo{
+    position:absolute;
+    top:50px;
+    width:25%;
+    left:580px;
+}
+div.anclajes{
+    position:absolute;
+    width:20%;
+    top:199px;
+    left:30px;
+}
+div.enlaces{
+    position:absolute;
+    float:right;
+    width:20%;
+    top:225px;
+    left:1190px;
+}

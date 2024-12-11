@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css">
+        <style type="text/css">
+            body{
+                font-family:Consolas;
+                font-size:18px;
+                background-image:url("FondoTablaYFormulario.jpg");
+                background-size:cover;
+                background-repeat:no-repeat;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body></br>
+        <center><a href="webBaile.html"><img src="logo.jpg" height="90px" width="90px"></a></center>
+        <b><center><a href="webBaile.html" style="color:black;" style="text-decoration:none;">Inés y Bárbara 80's 90's Pub Music</a></center></b>
+        </br></br>
+        <form action="php_baile.php" method="post">
+            Nombre<input type="text" name="nombre" required/><br />
+            <p>¿Has practicado baile alguna vez?
+                <input type="radio" name="siNo" value="Si" checked="checkbox" />Si
+                <input type="radio" name="SiNo" value="No" />No
+            </p>
+            <p>¿Con quién sueles bailar?
+                <input type="radio" name="gente" value="Pareja" checked="checkbox" />Pareja
+                <input type="radio" name="gente" value="Hijos" />Hijos
+                <input type="radio" name="gente" value="Familia" />Familia
+                <input type="radio" name="gente" value="Amigos" />Amigos
+            </p>
+            ¿Qué tipo de música sueles escuchar?<input type="text" name="musica" required/><br />
+            <input type="reset" value="Reiniciar">
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
